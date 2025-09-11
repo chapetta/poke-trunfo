@@ -3,10 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
 @font-face {
   font-family: 'PokemonOutlined';
-  src: url('../assets/fonts/Pokemon Outlined.ttf') format('truetype');
+  src: url('../assets/fonts/Pokemon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,28 +17,25 @@
 
 .poketrunfo-title {
   font-family: 'PokemonOutlined', sans-serif;
-  font-size: 72px;
-  color: #FFDE00; /* Amarelo do logo */
-  position: relative;
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: -2px;
+  font-size: 50px;
 
-  /* Contorno azul */
-  -webkit-text-stroke: 4px #3A5FCD; /* Azul escuro do logo */
-  text-stroke: 4px #3A5FCD; /* Para compatibilidade futura */
-  
-  /* Gradiente interno e sombra para efeito 3D */
-  background: linear-gradient(to bottom, #FFF200 0%, #FFD700 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  /* Sombra interna */
+  color: #ffcb05;
   text-shadow:
-      2px 2px 0px rgba(0,0,0,0.3),
-      -2px -2px 0px rgba(255,255,255,0.5),
-      2px -2px 0px rgba(255,255,255,0.5),
-      -2px 2px 0px rgba(0,0,0,0.3);
+  -3px -3px 0 #2D6CB6,
+  3px -3px 0 #2D6CB6,
+  -3px 3px 0 #2D6CB6,
+  3px 3px 0 #2D6CB6;
 
 }
 
+
+@font-face {
+  font-family: 'PokemonOutlined';
+  src: url('./assets/fonts/PokemonOutlined.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pokemon-text {
+ 
+}
