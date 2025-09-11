@@ -36,8 +36,20 @@
   font-style: normal;
 }
 
-gameboard-total {}
+.gameboard-total {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  border: black 2px solid;
+  gap: 30px;
+  margin: 20px;
+  height: 100vh;
+}
 
-.usuario-gameboard {
+.usuario-gameboard, .computer-gameboard {
+ border:solid black 2px;
+  flex: 1 1 50px;
+  height: 200px;
 
 }
